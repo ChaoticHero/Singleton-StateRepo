@@ -15,6 +15,9 @@ namespace Chapter.State
         
         void OnGUI() 
         {
+            if (GUILayout.Button("     ")) { }
+            if (GUILayout.Button("     ")) { }
+
             if (GUILayout.Button("Start Bike"))
                 _bikeController.StartBike();
             
